@@ -1,0 +1,93 @@
+Table-Customer
+customer_id	age	gender	loyalty_member	join_date
+C000001	40	Male	1	5/21/2025
+C000002	47	Male	0	12/26/2021
+C000003	58	Female	1	9/13/2022
+C000004	25	Female	0	2/27/2025
+C000005	43	Male	0	8/31/2023
+C000006	32	Male	0	5/22/2022
+C000007	51	Male	1	7/28/2024
+C000008	56	Female	0	8/12/2024
+C000009	18	Male	0	6/23/2025
+C000010	40	Male	0	6/7/2023
+C000011	44	Male	0	12/22/2025
+C000012	53	Male	1	1/24/2024
+C000013	68	Male	1	3/23/2022
+C000014	32	Female	1	8/16/2024
+C000015	61	Female	1	2/18/2026
+C000016	30	Female	0	9/19/2025
+C000017	29	Male	0	5/3/2021
+C000018	67	Male	1	9/28/2023
+C000019	69	Male	1	9/28/2022
+
+----------------------------------------------------------------------------
+Table-Sales
+order_id	order_date	product_id	store_id	customer_id	quantity	unit_price	discount	revenue	cost	profit
+0RD00000001	1/7/2023	P0080	S093	C040749	5	14.43	0.15	61.33	42.77	18.56
+0RD00000002	10/22/2023	P0173	S065	C020161	3	12.01	0	36.03	19.06	16.97
+0RD00000003	5/7/2023	P0115	S078	C048069	2	10.02	0	20.04	10.29	9.75
+0RD00000004	6/23/2024	P0186	S088	C047901	2	14.66	0.1	26.39	16.35	10.04
+0RD00000005	9/24/2024	P0197	S054	C033950	1	12.34	0	12.34	7.94	4.4
+0RD00000006	3/29/2024	P0160	S089	C008918	4	13.52	0	54.08	36.59	17.49
+0RD00000007	2/26/2023	P0062	S024	C002897	1	11.97	0.1	10.77	7.16	3.61
+0RD00000008	11/3/2023	P0111	S085	C038072	5	4.62	0	23.1	16.15	6.95
+0RD00000009	10/11/2024	P0135	S029	C003786	4	7.88	0	31.52	19.9	11.62
+0RD00000010	12/17/2023	P0069	S056	C043148	3	8.88	0	26.64	18.19	8.45
+0RD00000011	1/1/2023	P0181	S070	C016710	5	12.62	0	63.1	43.74	19.36
+0RD00000012	3/18/2023	P0137	S028	C040620	4	4.1	0	16.4	9.9	6.5
+0RD00000013	11/6/2024	P0003	S021	C048449	3	10.9	0	32.7	17.29	15.41
+0RD00000014	11/8/2024	P0026	S005	C009995	2	4.43	0.1	7.97	5.5	2.48
+0RD00000015	1/8/2024	P0042	S100	C011763	2	5.48	0	10.96	6.83	4.13
+0RD00000016	4/3/2023	P0110	S037	C037715	2	5.93	0	11.86	6.11	5.75
+0RD00000017	8/16/2024	P0058	S062	C038708	3	5.51	0	16.53	10.7	5.83
+0RD00000018	6/1/2024	P0088	S069	C013225	5	8.54	0	42.7	26.15	16.55
+0RD00000019	3/26/2024	P0069	S063	C001239	3	9.05	0	27.15	15.61	11.54
+
+----------------------------------------------------------------------------------------------------------------------------
+Table-Product
+product_id	product_name	brand	category	cocoa_percent	weight_g
+P0001	White Chocolate 80%	Mars	Truffle	80	120
+P0002	Dark Chocolate 70%	Cadbury	Praline	70	100
+P0003	Truffle Chocolate 70%	Hershey	Praline	70	120
+P0004	Milk Chocolate 50%	Mars	Praline	50	80
+P0005	White Chocolate 70%	Ferrero	White	70	50
+P0006	Milk Chocolate 50%	Hershey	Dark	50	50
+P0007	Praline Chocolate 70%	Cadbury	Praline	70	120
+P0008	White Chocolate 90%	Godiva	Dark	90	100
+P0009	White Chocolate 50%	Ferrero	Dark	50	80
+P0010	Milk Chocolate 70%	Hershey	Truffle	70	50
+P0011	Praline Chocolate 90%	Ferrero	Truffle	90	80
+P0012	Truffle Chocolate 80%	Mars	Praline	80	200
+P0013	White Chocolate 70%	Godiva	Truffle	70	120
+P0014	White Chocolate 60%	Mars	Praline	60	100
+P0015	Dark Chocolate 50%	Ferrero	Praline	50	50
+P0016	Dark Chocolate 90%	Mars	White	90	50
+P0017	White Chocolate 50%	Hershey	Milk	50	120
+P0018	Dark Chocolate 70%	Ferrero	Dark	70	50
+P0019	Dark Chocolate 70%	Mars	White	70	50
+
+-----------------------------------------------------------------------------------------------------
+Table-Stores
+store_id	store_name	city	country	store_type
+S001	Chocolate Store 1	New York	Canada	Retail
+S002	Chocolate Store 2	Melbourne	Canada	Mall
+S003	Chocolate Store 3	Berlin	France	Mall
+S004	Chocolate Store 4	Paris	UK	Airport
+S005	Chocolate Store 5	Sydney	USA	Online
+S006	Chocolate Store 6	Toronto	Canada	Online
+S007	Chocolate Store 7	Sydney	France	Mall
+S008	Chocolate Store 8	Paris	UK	Mall
+S009	Chocolate Store 9	Paris	France	Online
+S010	Chocolate Store 10	Toronto	UK	Retail
+S011	Chocolate Store 11	New York	USA	Retail
+S012	Chocolate Store 12	London	France	Mall
+S013	Chocolate Store 13	Melbourne	France	Retail
+S014	Chocolate Store 14	London	Australia	Airport
+S015	Chocolate Store 15	Paris	Canada	Airport
+S016	Chocolate Store 16	New York	USA	Mall
+S017	Chocolate Store 17	Melbourne	UK	Airport
+S018	Chocolate Store 18	London	Germany	Retail
+S019	Chocolate Store 19	New York	Germany	Airport
+
+
+
